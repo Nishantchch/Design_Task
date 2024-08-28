@@ -1,0 +1,170 @@
+
+ .earth{
+    position: absolute;
+    background: url("EarthIMG4.png");
+    width: 19vw;
+    height: 37vh;
+    margin-left: 73%;
+    margin-top: -22%;
+    border-radius: 50%;
+    background-size: cover;
+    animation: animationEarth 20s linear infinite;
+
+}
+
+@keyframes animationEarth{
+     0%{
+        background-position: 0 0;
+     }
+
+     100%{
+        background-position: 400px 0;
+
+     }
+} 
+
+@media screen and (max-width: 600px) {
+    .earth {
+      width: 70vw !important;
+      height: 35vh !important;
+      margin-top: 2% !important;
+      margin-left: 40%;
+    }
+  } 
+
+@media screen and (max-width: 900px) {
+    .earth {
+      width: 23vw ;
+      height: 21vh ;
+      margin-top: -25% ;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .earth {
+      width: 19vw ;
+      height: 38vh ;
+    }
+  }
+
+/* 
+.earth3{
+    position: absolute;
+    background: url("EarthIMG3.png");
+    width: 19vw;
+    height: 37%;
+    margin-left: 73%;
+    margin-top: -22%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    animation: animationEart 10s linear infinite;
+
+
+}
+@keyframes animationEart{
+
+    0%{
+        background-position: 0 0;
+
+     }
+     100%{
+        background-position: -30px ;
+     }
+
+     
+}  */
+
+/* 
+.earth2{
+    position: absolute;
+    background: url("EarthIMG1.png ");
+    width: 21vw ;
+    height: 39.5% ;
+    margin-left: 71% !important;
+    margin-top: -23% !important;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animationEart 10s linear infinite;
+
+}
+@keyframes animationEart{
+     0%{
+        background-position: 0 0;
+     }
+
+     100%{
+        background-position: 150px 0;
+        
+     }
+} */
+
+/* 
+.earth4{
+    position: absolute;
+    background: url("EarthIMG1.png ");
+    width: 21vw ;
+    height: 39.5% ;
+    margin-left: 71% !important;
+    margin-top: -23% !important;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+@keyframes animationEart{
+     0%{
+        background-position: 0 0;
+     }
+
+     100%{
+        background-position: 150px 0;
+        
+     }
+} */
+
+
+.box1 {
+    margin-left: -32%;
+    
+}
+
+/* .earth2{
+    width: 30vw;
+} */
+
+
+
+
+
+
+/* .earth1 {
+    margin-left: 73%;
+    position: absolute;
+    margin-top: -23%;
+
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotateX(360deg);
+    }
+} */

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;600;700&display=swap');
+
+.Slider2box1 {
+    width: 50vw;
+    margin-top: 5%;
+    margin-left: 15.5%;
+
+}
+
+
+
+.check1{
+    margin-top: 35% ;
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    .check1 {
+        margin-top: 80%;
+        margin-left: -5%;
+
+    }
+}
+
+.check2{
+    margin-top: -2.2% ;
+    margin-left: 26%;
+}
+@media screen and (max-width: 600px) {
+    .check2 {
+        margin-top: -8.5%;
+        margin-left: 20%;
+
+    }
+}
+.check3{
+    margin-top: -2.1% ;
+    margin-left: 32.5%;
+}
+@media screen and (max-width: 600px) {
+    .check3 {
+        margin-top: -9%;
+        margin-left: 48%;
+
+    }
+}
+.check4{
+    margin-top: -2.1% ;
+    margin-left: 39%;
+}
+@media screen and (max-width: 600px) {
+    .check4 {
+        margin-top: -8.5%;
+        margin-left: 77%;
+
+    }
+}
+.check5{
+    margin-top: -2.2% ;
+    margin-left: 45%;
+}
+@media screen and (max-width: 600px) {
+    .check5 {
+        margin-top: -8.5%;
+        margin-left:105%;
+
+    }
+}
+
+.container {
+
+    width: 100%;
+    max-width: 50vw;
+    display: flex;
+    transform-style: preserve-3d;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 25%;
+        width: 90vw;
+    }
+}
+
+.cards {
+
+    position: relative;
+    width: 10vw;
+    margin-bottom: 20vw;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    margin-top: -37%;
+    margin-bottom: 50%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .cards {
+        margin-bottom: 100%;
+        margin-top: -80%;
+
+    }
+}
+
+.cards label {
+
+    position: absolute;
+    width: 28vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.55s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .cards label {
+        width: 45vw;
+        margin-left: -90%;
+    }
+}
+
+.card {
+    border-radius: 30px !important;
+}
+
+
+.card .image {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .image img {
+
+    width: 110%;
+    margin-left: -5%;
+    object-fit: cover;
+}
+
+/* .cards .image img:hover {
+    transform: scale(1.05s);
+} */
+
+
+ 
+
+#s1:checked~.cards #slide4,
+#s2:checked~.cards #slide5,
+#s3:checked~.cards #slide1,
+#s4:checked~.cards #slide2,
+#s5:checked~.cards #slide3 {
+    transform: translate3d(-60%, 10px, -230px);
+}
+
+@media screen and (max-width: 600px) {
+
+    #s1:checked~.cards #slide4,
+    #s2:checked~.cards #slide5,
+    #s3:checked~.cards #slide1,
+    #s4:checked~.cards #slide2,
+    #s5:checked~.cards #slide3 {
+        transform: translate3d(-55%, 6px, -230px);
+    }
+
+}
+
+#s1:checked~.cards #slide5,
+#s2:checked~.cards #slide1,
+#s3:checked~.cards #slide2,
+#s4:checked~.cards #slide3,
+#s5:checked~.cards #slide4 {
+    transform: translate3d(-30%, 0, -120px);
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #s1:checked~.cards #slide5,
+    #s2:checked~.cards #slide1,
+    #s3:checked~.cards #slide2,
+    #s4:checked~.cards #slide3,
+    #s5:checked~.cards #slide4 {
+        transform: translate3d(-25%, 0, -120px);
+
+    }
+
+}
+
+#s1:checked~.cards #slide1,
+#s2:checked~.cards #slide2,
+#s3:checked~.cards #slide3,
+#s4:checked~.cards #slide4,
+#s5:checked~.cards #slide5 {
+    transform: translate3d(0, -10px, 0);
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #s1:checked~.cards #slide1,
+    #s2:checked~.cards #slide2,
+    #s3:checked~.cards #slide3,
+    #s4:checked~.cards #slide4,
+    #s5:checked~.cards #slide5 {
+        transform: translate3d(0, -5px, 0);
+
+    }
+
+}
+
+#s1:checked~.cards #slide2,
+#s2:checked~.cards #slide3,
+#s3:checked~.cards #slide4,
+#s4:checked~.cards #slide5,
+#s5:checked~.cards #slide1 {
+    transform: translate3d(35%, -5px, -110px);
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #s1:checked~.cards #slide2,
+    #s2:checked~.cards #slide3,
+    #s3:checked~.cards #slide4,
+    #s4:checked~.cards #slide5,
+    #s5:checked~.cards #slide1 {
+        transform: translate3d(32%, -1px, -110px);
+
+    }
+
+}
+
+#s1:checked~.cards #slide3,
+#s2:checked~.cards #slide4,
+#s3:checked~.cards #slide5,
+#s4:checked~.cards #slide1,
+#s5:checked~.cards #slide2 {
+    transform: translate3d(65%, 0, -170px);
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #s1:checked~.cards #slide3,
+    #s2:checked~.cards #slide4,
+    #s3:checked~.cards #slide5,
+    #s4:checked~.cards #slide1,
+    #s5:checked~.cards #slide2 {
+        transform: translate3d(62%, 3%, -200px);
+    
+    }
+}

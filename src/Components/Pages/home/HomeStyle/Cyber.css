@@ -1,0 +1,58 @@
+.div1{
+    transition: ease .3s;
+    cursor: pointer;
+}
+.div1:hover{
+   transform: translateX(3%)
+}
+.div2{
+    transition: ease .3s;
+    cursor: pointer;
+}
+.div2:hover{
+    transform: translateX(-3%)
+
+}
+.div3{
+    transition: ease .3s;
+    cursor: pointer;
+}
+.div3:hover{
+   transform: translateX(3%)
+}
+
+.div1:hover ~ .div2{
+   transform: translateX(-3%)
+}
+.div1:hover ~ .div3{
+   transform: translateX(3%)
+}
+.div2:hover ~ .div3{
+   transform: translateX(3%)
+}
+
+
+
+/* 
+.div1:hover ~ .div2{
+    transform: translateX(-3%)
+ }
+ 
+ .div1:hover ~ .div3{
+    transform: translateX(3%)
+ }
+
+ .div2:hover ~ .div3{
+    transform: translateX(3%)
+ }
+
+ .div3:hover ~ .div1{
+    transform: translateX(3%)
+ }
+
+ .div3:hover ~ .div2{
+    transform: translateY(-3%)
+ } */
+
+
+

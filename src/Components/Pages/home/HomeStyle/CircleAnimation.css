@@ -1,0 +1,341 @@
+/* .manediv{
+    margin-left: 5%;
+} */
+
+.circle {
+    margin-left: 16%;
+    margin-top: 7.2%;
+    width: 9vw;
+
+    position: absolute;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .circle {
+        width: 35vw;
+        margin-top: 25%;
+        margin-left: 28%;
+    }
+}
+
+.circleimg1 {
+    width: 6vw;
+    margin-left: 280%;
+    position: relative;
+    margin-top: 5%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .circleimg1 {
+        width: 25vw;
+        margin-top: -4%;
+        margin-left: 35%;
+    }
+}
+
+.Text1 {
+    font-size: .7vw;
+    margin-left: 19%;
+    margin-top: -4.5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text1 {
+        font-size: 3vw;
+        margin-top: -18%;
+        margin-left: 42%;
+    }
+}
+
+.Text2 {
+    font-size: .7vw;
+    margin-left: 17.6%;
+    margin-top: -3%;
+    position: absolute;
+    color: #11184C;
+
+}
+@media screen and (max-width: 600px) {
+    .Text2 {
+        font-size: 3vw;
+        margin-top: -12%;
+        margin-left: 36%;
+    }
+}
+
+.circleimg2 {
+    width: 6vw;
+    margin-left: 160%;
+    margin-top: -17%;
+    position: relative;
+
+}
+
+@media screen and (max-width: 600px) {
+    .circleimg2 {
+        width: 25vw;
+        margin-top: -8%;
+        margin-left: 3%;
+    }
+}
+
+.Text3 {
+    font-size: .7vw;
+    margin-left: 11.5%;
+    margin-top: -4.5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text3 {
+        font-size: 3vw;
+        margin-top: -18%;
+        margin-left: 11%;
+    }
+}
+
+.Text4 {
+    font-size: .7vw;
+    margin-left: 10.2%;
+    margin-top: -3%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text4 {
+        font-size: 3vw;
+        margin-top: -12%;
+        margin-left: 5%;
+    }
+}
+
+.circleimg3 {
+    width: 6vw;
+    margin-left: 420%;
+    margin-top: -170%;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .circleimg3 {
+        width: 25vw;
+        margin-top: -30%;
+        margin-left: 68%;
+    }
+}
+
+.Text5 {
+    font-size: .7vw;
+    margin-left: 27.5%;
+    margin-top: -7.5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text5 {
+        font-size: 3vw;
+        margin-top: -23%;
+        margin-left: 73%;
+    }
+}
+
+.Text6 {
+    font-size: .7vw;
+    margin-left: 26.2%;
+    margin-top: -6%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text6 {
+        font-size: 3vw;
+        margin-top: -17%;
+        margin-left: 67%;
+    }
+}
+
+.circleimg4 {
+    width: 6vw;
+    margin-left: 420%;
+    margin-top: -5%;
+    position: relative;
+
+}
+
+@media screen and (max-width: 600px) {
+    .circleimg4 {
+        width: 25vw;
+        margin-top: 5%;
+        margin-left: 68%;
+    }
+}
+
+.Text7 {
+    font-size: .7vw;
+    margin-left: 27.5%;
+    margin-top: -4.5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text7 {
+        font-size: 3vw;
+        margin-top: -18%;
+        margin-left: 73%;
+    }
+}
+
+.Text8 {
+    font-size: .7vw;
+    margin-left: 26.2%;
+    margin-top: -3%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text8{
+        font-size: 3vw;
+        margin-top: -12%;
+        margin-left: 67%;
+    }
+}
+
+.circleimg5 {
+    width: 6vw;
+    margin-left: 170%;
+    margin-top: -80%;
+    position: relative;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .circleimg5 {
+        width: 25vw;
+        margin-top: -35%;
+        margin-left: 2%;
+    }
+}
+
+.Text9 {
+    font-size: .7vw;
+    margin-left: 12.3%;
+    margin-top: -5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text9{
+        font-size: 3vw;
+        margin-top: -25%;
+        margin-left: 9%;
+    }
+}
+
+.Text10 {
+    font-size: .7vw;
+    margin-left: 11%;
+    margin-top: -3.5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text10{
+        font-size: 3vw;
+        margin-top: -18%;
+        margin-left: 4%;
+    }
+}
+
+.circleimg6 {
+    width: 6vw;
+    margin-left: 300%;
+    margin-top: -40%;
+    position: relative;
+    margin-bottom: 5%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .circleimg6 {
+        width: 25vw;
+        margin-top: -14%;
+        margin-left: 34%;
+    }
+}
+
+.Text11 {
+    font-size: .7vw;
+    margin-left: 20.3%;
+    margin-top: -5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text11{
+        font-size: 3vw;
+        margin-top: -22%;
+        margin-left: 40%;
+    }
+}
+
+.Text12 {
+    font-size: .7vw;
+    margin-left: 19%;
+    margin-top: -3.5%;
+    position: absolute;
+    color: #11184C;
+
+}
+
+@media screen and (max-width: 600px) {
+    .Text12{
+        font-size: 3vw;
+        margin-top: -16%;
+        margin-left: 35%;
+    }
+}
